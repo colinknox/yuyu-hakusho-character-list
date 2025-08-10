@@ -1,5 +1,5 @@
 def main():
-    yyh_characters()
+    print(yyh_characters())
 
 def yyh_characters():
     character_list = [
@@ -21,8 +21,14 @@ def yyh_characters():
         "yomi"
     ]
 
-    print(character_list)
+    team_urameshi = []
+    
+    for i in character_list:
+        list_length = len(team_urameshi)
 
+        if list_length < 8:
+            team_urameshi.append(i)
 
+    return team_urameshi
 
 main()
