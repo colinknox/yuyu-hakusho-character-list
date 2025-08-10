@@ -1,0 +1,1 @@
+# yuyu-hakusho-character-list
